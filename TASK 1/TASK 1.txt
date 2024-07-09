@@ -1,0 +1,23 @@
+1. Jelaskan apa itu DBT !
+2. Apa keuntungan menggunakan DBT ?
+3. Jelaskan dependency tree dan versioning pada DBT !
+
+1. DBT (Data Build Tool) adalah alat yang digunakan untuk mengubah dan mengelola
+data di data warehouse menggunakan SQL. Alat ini membantu memproses data mentah menjadi
+data yang lebih berguna dan siap digunakan.
+
+2. Apa keuntungan menggunakan DBT?
+- Memecah pekerjaan besar menjadi bagian-bagian kecil yang mudah dikelola.
+- Melacak perubahan kode dengan sistem seperti Git.
+- Membuat dokumentasi secara otomatis untuk model data.
+- Memungkinkan pengujian untuk memastikan transformasi data benar.
+- Mengatur urutan pengerjaan transformasi data berdasarkan hubungan antar model.
+
+3. Dependency Tree menunjukkan hubungan antar model data. DBT memastikan model
+dijalankan dalam urutan yang benar sesuai dengan ketergantungan mereka.
+
+Versioning menggunakan sistem seperti git untuk melacak dan mengelola
+perubahan pada kode SQL. Ini membantu mengatur perubahan dan memungkinkan 
+rollback ke versi sebelumnya jika diperlukan.
+
+DBT mempermudah pengolahan data dengan membuatnya lebih teratur dan terdokumentasi dengan baik.
